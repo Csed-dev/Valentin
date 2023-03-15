@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/autocar/images/cars.jpg), url(/autocar/images/hintergrund.avif);
+    background-image: url(/images/cars.jpg), url(/images/hintergrund.avif);
     background-size: 50vh auto,;
     background-repeat: no-repeat;
     background-position: bottom center, center center;}
