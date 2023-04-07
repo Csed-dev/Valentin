@@ -2,234 +2,172 @@
 <html lang="en">
 
 <head>
-  <title>Valentin</title>
+    <title>Valentin</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-  <!-- Link CSS -->
-  <link rel="stylesheet" href="style.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+    <!-- Navbar -->
     <div class="container">
-      <a class="navbar-brand" href="#">&nbsp</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="#">Über mich</a>
-          <a class="nav-link" href="#">Fähigkeiten</a>
-          <a class="nav-link" href="#">Projekt</a>
-          <a class="nav-link" href="#">Kontakt</a>
-          <a class="nav-link" href="#">Sonstiges</a>
-          <a class="nav-link px-2 m-0" href="#"><img src="/images/united-kingdom-flag-uk.svg" alt=""></a>
-          <div class="btn-group ps-2 pt-2">
-            <button id="button1" onclick="toggleButtons(); myFunction();" type="button"
-              class="btn btn-dark">&#9789</button>
-            <button id="button2" onclick="toggleButtons(); myFunction();" type="button"
-              class="btn btn-outline-light">&#9788</button>
-          </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                        <a class="nav-link" href="#">Cars</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Services -->
+        <div class="row my-5 g-0">
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="images/cars.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay black">
+                      <h5 class="card-title">Weddings</h5>
+                      <p class="card-text">This is a wider card with supporting text below</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="images/cars.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay black">
+                      <h5 class="card-title">Weddings</h5>
+                      <p class="card-text">This is a wider card with supporting text below</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="images/cars.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay black">
+                      <h5 class="card-title">Weddings</h5>
+                      <p class="card-text">This is a wider card with supporting text below</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-bg-dark">
+                    <img src="images/cars.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay black">
+                      <h5 class="card-title">Weddings</h5>
+                      <p class="card-text">This is a wider card with supporting text below</p>
+                    </div>
+                  </div>
+            </div>
         </div>
-      </div>
+
+        <hr>
+        <!-- Cars -->
+        <div class="row d-flex justify-content-evenly text-center my-5">
+            <div class="col-3">
+                <img class="img-fluid" src="images/erstesauto.png" alt="">
+                <br>
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="bottom" data-bs-content="Bottom popover">
+                    <h5>BMW 550 GS</h5>
+                </button>
+                <p class="mt-3 textsizesm">50€ / h</p>
+                <p class="mt-3 textsizesm">50€ / h</p>
+                <p class="mt-3 textsizesm">50€ / h</p>
+                <p class="mt-3 textsizesm">50€ / h</p>
+
+            </div>
+
+            <div class="col-3">
+                <img class="img-fluid" src="images/erstesauto.png" alt="">
+                <br>
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="bottom" data-bs-content="Bottom popover">
+                    <h5>BMW 550 GS</h5>
+                </button>
+
+            </div>
+            
+            <div class="col-3">
+                <img class="img-fluid" src="images/erstesauto.png" alt="">
+                <br>
+                <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+                    data-bs-placement="bottom" data-bs-content="Bottom popover">
+                    <h5>BMW 550 GS</h5>
+                </button>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <section class="pricelist">
+            <div class="row text-center textsize">
+                <div class="col-12">
+                    <p class="display-4">Price List</p>
+                </div>
+                <div class="col-4">
+                    Bratislava to Vienna
+                </div>
+                <div class="col-4">
+                    -
+                </div>
+                <div class="col-4">
+                    50€ / h
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
-  </nav>
 
-  <!-- Hero - Section -->
-  <section class="test">
-    <div class="heading">
-      <p class="display-1">Front End Entwickler</p>
-      <p class="display-3">als Werkstudent <br> bei raum2projekt</p>
-      <a href="">Kontakt</a>
-    </div>
-  </section>
-
-
-  <section class="container erstesauto">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-5 mt-4">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-5 text-center mt-5">
-          <h3>Tesla 3X</h3>
-          <br>
-          <h5>Ein super Flugzeug, wenn man gerne Schwimmen geht!</h5>
-          <br>
-          <p class="display-6">150€</p>
-        </div>
-        <div class="col-1"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </section>
-  <section class="container erstesauto" style="background-color: green;">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-5 mt-4">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-5 text-center mt-5">
-          <h3>Tesla 3X</h3>
-          <br>
-          <h5>Ein super Flugzeug, wenn man gerne Schwimmen geht!</h5>
-          <br>
-          <p class="display-6">150€</p>
-        </div>
-        <div class="col-1"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  </section>
-  <section class="container erstesauto" style="background-color: blue;">
-      <div class="row">
-        <div class="col-1"></div>
-        <div class="col-5 mt-4">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-5 text-center mt-5">
-          <h3>Tesla 3X</h3>
-          <br>
-          <h5>Ein super Flugzeug, wenn man gerne Schwimmen geht!</h5>
-          <br>
-          <p class="display-6">150€</p>
-        </div>
-        <div class="col-1"></div>
-      </div>
-
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/erstesauto.png" alt="">
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  </section>
-
-
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <!-- Separeted jquary, jquary is not included in jsdelivr.net... || because of old version, bcs using old jquary in script.js -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <!-- ATTENTION: JS for index.html -->
-  <script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Separeted jquary, jquary is not included in jsdelivr.net... || because of old version, bcs using old jquary in script.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- ATTENTION: JS for index.html -->
+    <script src="/script.js"></script>
 </body>
 
 </html>
